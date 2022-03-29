@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <div class="w3-top">
         <div class="w3-bar w3-black w3-card w3-left-align w3-large">
@@ -86,6 +85,7 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
+
             <p class="w3-text-grey">
                 In New York City, there are heat regulations that state heat must be provided between October 1st and
                 May 31st. During the day, from 6 AM to 10 PM, if the outside temperature falls below 55 degrees then the
@@ -134,14 +134,14 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
+
             <p class="w3-text-grey">
                 These maps show the areas in which complaints were made and violations were found. The map on the left
-                shows us
-                how many complaints NYC residents make with the 311 hotline. When 311 receives these complaints, they
-                direct them the HPD - the department of Housing, Preservation, and Development. HPD then investigates
-                the complaints by trying to reach out to the building owner or management to see if heat has been
-                restored. If the problem is not resolved, HPD sends out an inspector who verifies the copmlaint and
-                issue the appropriate violation.
+                shows us how many complaints NYC residents make with the 311 hotline. When 311 receives these
+                complaints, they direct them the HPD - the department of Housing Preservation and Development. HPD then
+                investigates the complaints by trying to reach out to the building owner or management to see if heat
+                has been restored. If the problem is not resolved, HPD sends out an inspector who verifies the copmlaint
+                and issue the appropriate violation.
                 <br>
                 On the right, we can see all the issued violations. After a violation is issued, HPD usually starts a
                 court proceeding. The agency can seek penalties up to $1000 per day until to violation is corrected.
@@ -185,6 +185,7 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
+
             <p class="w3-text-grey">
                 The bubbles in the chart above represent community districts within each borough. The size of each
                 bubble represents the number of heating fire incidents that happened in that district from 2016 to 2020.
@@ -219,20 +220,13 @@
             <script type='text/javascript'>
                 var divElement = document.getElementById('viz1648095000652');
                 var vizElement = divElement.getElementsByTagName('object')[0];
-                if (divElement.offsetWidth > 800) {
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                }
-                else if (divElement.offsetWidth > 500) {
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                }
+                if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; }
+                else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; }
                 else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; }
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
-
 
             <p class="w3-text-grey">In this chart, each circle represents a home fire incident fatality. Although many
                 remain under investigation, of the causes that are known, heating is the number one cause.</p>
@@ -255,7 +249,8 @@
             var x = document.getElementById("navDemo");
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
-            } else {
+            }
+            else {
                 x.className = x.className.replace(" w3-show", "");
             }
         }
