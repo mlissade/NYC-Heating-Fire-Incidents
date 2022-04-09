@@ -10,11 +10,21 @@ This capstone project addresses heating fire incidents throughout the NYC boroug
 
 ## The Repository Contents
 
-- `data-sources`: data sources for the project and an HTML file for the "Data Sources" webpage of the project site
-- `favicon_io`: files for the browser tab icon of the website
-- `project`: the Tableau workbook and an HTML file for the "Project" webpage
-- `resources`: HTML file for the "Resources" webpage
-- `Capstone-Whitepaper.pdf`: Capstone Whitepaper
-- `index.html`: Home webpage
-- `style.css`: CSS stylesheet for website
-- `w3.css`: CSS stylesheet for website provided by [W3Schools](https://www.w3schools.com/w3css/default.asp)
+- [`data-sources`][1]: data sources for the project and an HTML file for the "Data Sources" webpage of the project site
+- [`favicon_io`][2]: files for the browser tab icon of the website
+- [`project`][3]: the Tableau workbook and an HTML file for the "Project" webpage
+- [`resources`][4]: HTML file for the "Resources" webpage
+- [`Capstone-Whitepaper.pdf`][5]: Capstone Whitepaper
+- [`index.html`][6]: Home webpage
+- [`style.css`][7]: CSS stylesheet for website
+- [`w3.css`][8]: CSS stylesheet for website provided by [W3Schools][9]
+
+[1]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/data-sources
+[2]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/favicon_io
+[3]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/project
+[4]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/resources
+[5]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/Capstone-Whitepaper.pdf
+[6]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/index.html
+[7]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/style.css
+[8]: https://github.com/mlissade/NYC-Heating-Fire-Incidents/tree/main/w3.css
+[9]: https://www.w3schools.com/w3css/default.asp
